@@ -1,0 +1,84 @@
+body{
+	
+}
+header{
+	background-image: url("images/sky600x200.jpg");
+	background-color: #cccccc;
+	height: 500px; /* You must set a specified height */
+
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+ol{
+	display: flex;
+	justify-content: space-around;
+	background-color: #cccccc;
+}
+
+li{
+
+}
+a{
+	color: red;
+	font-size: 2rem;
+	text-decoration: none;
+
+}
+
+table,th,td{
+	margin-left: 40%;
+	padding: 10px;
+	border: 1px solid pink;
+}
+table{
+	background-image: url("images/Red_Point.gif");
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+	color:darkblue;
+}
+footer{
+	margin-top: 20px;
+	background-color: black;
+	color:white;
+	text-align: center;
+
+}
+p{
+	padding: 0px 15px 5px 0px;
+}
+.autor{
+	margin-left: 30px;
+}
+.content{
+	background-color: #cccccc;
+}
+.main{
+	display: flex;
+	margin:30px;
+	text-align: justify;
+
+}
+#third{
+
+	text-align: justify;
+	margin:30px;
+}
+
+.foot{
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+}
+
+#up{
+	list-style: none;
+}
